@@ -3,7 +3,9 @@ COPY php.ini /usr/local/etc/php/
 
 RUN apt-get update \
   && apt-get install -y zlib1g-dev mariadb-client \
-  && docker-php-ext-install zip pdo_mysql
+  && docker-php-ext-install zip pdo_mysql \
+  && pecl install xdebug-2.9.8 \
+  && docker-php-ext-enable xdebug
 
 #Composer install
 COPY --from=composer /usr/bin/composer /usr/bin/composer
@@ -18,3 +20,5 @@ ENV PATH $PATH:/composer/vendor/bin
 WORKDIR /var/www
 
 RUN composer global require "laravel/installer"
+
+

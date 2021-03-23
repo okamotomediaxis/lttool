@@ -3,9 +3,12 @@ version: '3'
 services:
   php:
     container_name: lt-php
+    ports:
+      - 20083:80
     build: ./docker/php
     volumes:
     - ./server:/var/www
+#    - INSTALL_XDEBUG=true
 
   nginx:
     image: nginx
