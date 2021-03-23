@@ -5,68 +5,84 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
 
-                    @if (session('message'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('message') }}
-                        </div>
-                    @endif
+                @if (session('message'))
+                    <div class="alert alert-success" role="alert">
+                        {{ session('message') }}
+                    </div>
+                @endif
 
                 <div class="card">
                     <div class="card-header">{{ __('アンケートフォーム') }}</div>
                     <div class="card-body">
-                        <form method="POST" action="/form">
-                            @csrf
+                        <table>
+                            <form method="POST" action="/form">
+                                @csrf
 
-                            <label>参加日</label>
-                            <input name="date">{{ old('date') }}
-                            @if ($errors->has('date'))
-                                <p class="error-message">{{ $errors->first('date') }}</p>
-                            @endif
+                                <tr>
+                                    <th>参加日</th>
+                                    <td>
+                                        <input name="date">{{ old('date') }}
+                                        @if ($errors->has('date'))
+                                            <p class="error-message">{{ $errors->first('date') }}</p>
+                                        @endif
+                                    </td>
+                                </tr>
 
-                            <br>
+                                <tr>
+                                    <th>発表の満足度</th>
+                                    <td>大変良い<input name="presentationScore" type="radio" value="{{ old('presentationExcellent') }}" checked>
+                                        良い<input name="presentationScore" type="radio" value="{{ old('presentationGood') }}">
+                                        普通<input name="presentationScore" type="radio" value="{{ old('presentationAverage') }}">
+                                        悪い<input name="presentationScore" type="radio" value="{{ old('presentationPoor') }}"></td>
+                                </tr>
 
-                            <label>発表の満足度</label>
-                            大変良い<input name="presentationScore" type="radio" value="{{ old('presentationExcellent') }}" checked>
-                            良い<input name="presentationScore" type="radio" value="{{ old('presentationGood') }}">
-                            普通<input name="presentationScore" type="radio" value="{{ old('presentationAverage') }}">
-                            悪い<input name="presentationScore" type="radio" value="{{ old('presentationPoor') }}">
-                            <br>
+                                <tr>
+                                    <th>運営･ランチの満足度</th>
+                                    <td>大変良い<input name="operationScore" type="radio" value="{{ old('operationExcellent') }}">
+                                        良い<input name="operationScore" type="radio" value="{{ old('operationGood') }}">
+                                        普通<input name="operationScore" type="radio" value="{{ old('operationAverage') }}">
+                                        悪い<input name="operationScore" type="radio" value="{{ old('operationPoor') }}"></td>
+                                </tr>
 
-                            <label>運営・ランチの満足度</label>
-                            大変良い<input name="operationScore" type="radio" value="{{ old('operationExcellent') }}">
-                            良い<input name="operationScore" type="radio" value="{{ old('operationGood') }}">
-                            普通<input name="operationScore" type="radio" value="{{ old('operationAverage') }}">
-                            悪い<input name="operationScore" type="radio" value="{{ old('operationPoor') }}">
+                                <tr>
+                                    <th>良かった点</th>
+                                    <td><textarea name="goodMessage">{{ old('goodMessage') }}</textarea>
+                                        @if ($errors->has('goodMessage'))
+                                            <p class="errormessage">{{ $errors->first('goodMessage') }}</p>
+                                        @endif
+                                    </td>
+                                </tr>
 
-                            <br>
+                                <tr>
+                                    <th>改善点</th>
+                                    <td>
+                                        <textarea name="improveMessage">{{ old('improveMessage') }}</textarea>
+                                        @if ($errors->has('improveMessage'))
+                                            <p class="errormessage">{{ $errors->first('improveMessage') }}</p>
+                                        @endif
 
-                            <label>良かった点</label>
-                            <textarea name="goodMessage">{{ old('goodMessage') }}</textarea>
-                            @if ($errors->has('goodMessage'))
-                                <p class="errormessage">{{ $errors->first('goodMessage') }}</p>
-                            @endif
+                                    </td>
+                                </tr>
 
-                            <br>
+                                <tr>
+                                    <th>その他</th>
+                                    <td>
+                                        <textarea name="other">{{ old('other') }}</textarea>
+                                        @if ($errors->has('other'))
+                                            <p class="errormessage">{{ $errors->first('other') }}</p>
+                                        @endif
+                                    </td>
+                                </tr>
 
-                            <label>改善点</label>
-                            <textarea name="improveMessage">{{ old('improveMessage') }}</textarea>
-                            @if ($errors->has('improveMessage'))
-                                <p class="errormessage">{{ $errors->first('improveMessage') }}</p>
-                            @endif
-
-                            <br>
-
-                            <label>その他(聞きたい話や登壇できる内容など)</label>
-                            <textarea name="other">{{ old('other') }}</textarea>
-                            @if ($errors->has('other'))
-                                <p class="errormessage">{{ $errors->first('other') }}</p>
-                            @endif
-                            <br>
-
-                            <button type="submit">
-                                {{ __('送信') }}
-                            </button>
-                        </form>
+                                <tr>
+                                    <td>
+                                    <button type="submit">
+                                        {{ __('送信') }}
+                                    </button>
+                                    </td>
+                                </tr>
+                            </form>
+                        </table>
                     </div>
                 </div>
             </div>
