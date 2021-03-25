@@ -27,8 +27,15 @@ class CalendarController extends Controller
         return view('Calendar/calendar', $view_data);
     }
 
-    public function show($request)
+    public function show($yearMonth,$day)
     {
-        $request;
+        $date = $yearMonth . "-" . $day;
+
+        $view_data = [
+            'date' => $date,
+            'form' => $this->servce->getFormData($date),
+        ];
+
+        return view('Calendar/detail',$view_data);
     }
 }

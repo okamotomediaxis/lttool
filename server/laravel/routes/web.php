@@ -26,3 +26,4 @@ Route::post('form', 'FormController@send');
 
 Route::get('/calendar/{yearMonth}','CalendarController@index');
 Route::get('/calendar/{yearMonth}/{day}','CalendarController@show');
+
