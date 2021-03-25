@@ -13,7 +13,7 @@ class CreateFormTable extends Migration
      */
     public function up()
     {
-        Schema::create('form', function (Blueprint $table) {
+        Schema::create('forms', function (Blueprint $table) {
             $table->increments('id');
             $table->date("date")->nullable();
             $table->integer("presentation_score")->nullable();
@@ -34,6 +34,6 @@ class CreateFormTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('form');
+        Schema::dropIfExists('forms');
     }
 }

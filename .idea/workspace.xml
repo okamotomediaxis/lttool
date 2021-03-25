@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e8918d-288c-44ef-a310-19f5209015e6" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/server/laravel/resources/views/Calendar/calendar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/laravel/resources/views/Form/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/migrations.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/migrations.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/mysql/help_topic.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/mysql/help_topic.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/mysql/innodb_table_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/laravel/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/laravel/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/app/Model/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/laravel/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/form.frm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/form.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/laravel/app/Http/Controllers/FormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/app/Http/Controllers/FormController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/laravel/app/Model/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/app/Model/Form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/laravel/database/migrations/2021_03_10_094459_create_form_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/database/migrations/2021_03_10_094459_create_form_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/laravel/resources/views/Form/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/resources/views/Form/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +16,63 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/server/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="19020" listening_started="true" zd_settings_broadcasting_port="20083" />
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="1f0b3c7c-8c4c-48ea-9689-8c6bf8aca25c" name="laravel-php" port="20083" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/server" remote-root="/var/www" />
+        </path_mappings>
+      </server>
+      <server host="" id="59927958-c7ba-4b02-a782-0c782f86be99" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/server/laravel/public" remote-root="/var/www/laravel/public" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php">
+    <include_path>
+      <path value="$PROJECT_DIR$/server/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/server/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/server/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/server/vendor/composer" />
+      <path value="$PROJECT_DIR$/server/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/server/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/server/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/server/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/server/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/server/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/server/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-ctype" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1oPtgpUU3VwwCuIpM6EkX3zKPwk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,19 +83,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/laravel/resources/views/Calendar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker/php" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/laravel/app/Http/Controllers" />
-      <recent name="$PROJECT_DIR$/server/laravel/app/Model" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/php" />
+      <recent name="$PROJECT_DIR$/server/laravel/resources/sass" />
       <recent name="$PROJECT_DIR$/server/laravel/resources/views/Calendar" />
       <recent name="$PROJECT_DIR$/server/laravel/app/Http/Controllers/Form" />
       <recent name="$PROJECT_DIR$/server/laravel/resources/views/Questionnaire" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/laravel/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/server/laravel/app/Model" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -59,7 +106,10 @@
       <command value="App\Http\Controllers\FormContoller" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP リモートデバッグ.Xdebug">
+    <configuration name="Xdebug" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="laravel-php" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
     <configuration name="php/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -74,6 +124,10 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Docker.php/Dockerfile" />
+      <item itemvalue="PHP リモートデバッグ.Xdebug" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Docker.php/Dockerfile" />
@@ -100,7 +154,9 @@
       <workItem from="1615427941299" duration="41000" />
       <workItem from="1615462699095" duration="226000" />
       <workItem from="1615613861129" duration="849000" />
-      <workItem from="1616203010632" duration="663000" />
+      <workItem from="1616203010632" duration="12049000" />
+      <workItem from="1616406218896" duration="17327000" />
+      <workItem from="1616582239597" duration="3116000" />
     </task>
     <servers />
   </component>
@@ -108,29 +164,118 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="392" key="NewPhpFileDialog" timestamp="1614764988776">
+    <state x="322" y="123" key="#CLI_Interpreters" timestamp="1616416656997">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="322" y="123" key="#CLI_Interpreters/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616416656997" />
+    <state x="261" y="50" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616417199681">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="261" y="50" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616417199681" />
+    <state x="1928" y="403" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1616584592940">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1928" y="403" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584592940" />
+    <state x="384" y="74" key="#サーバー" timestamp="1616416373701">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="384" y="74" key="#サーバー/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616416373701" />
+    <state x="436" y="292" key="#通知" timestamp="1616413978455">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="436" y="292" key="#通知/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616413978455" />
+    <state width="1878" height="418" key="GridCell.Tab.0.bottom" timestamp="1616584323446">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.0.bottom/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584323446" />
+    <state width="1368" height="184" key="GridCell.Tab.0.bottom/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584149142" />
+    <state width="1878" height="418" key="GridCell.Tab.0.center" timestamp="1616584323445">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.0.center/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584323445" />
+    <state width="1368" height="184" key="GridCell.Tab.0.center/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584149141" />
+    <state width="1878" height="418" key="GridCell.Tab.0.left" timestamp="1616584323445">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.0.left/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584323445" />
+    <state width="1368" height="184" key="GridCell.Tab.0.left/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584149140" />
+    <state width="1878" height="418" key="GridCell.Tab.0.right" timestamp="1616584323446">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.0.right/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584323446" />
+    <state width="1368" height="184" key="GridCell.Tab.0.right/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584149141" />
+    <state width="1878" height="418" key="GridCell.Tab.1.bottom" timestamp="1616584344940">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.1.bottom/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584344940" />
+    <state width="1368" height="184" key="GridCell.Tab.1.bottom/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584185388" />
+    <state width="1878" height="418" key="GridCell.Tab.1.center" timestamp="1616584344939">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.1.center/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584344939" />
+    <state width="1368" height="184" key="GridCell.Tab.1.center/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584185387" />
+    <state width="1878" height="418" key="GridCell.Tab.1.left" timestamp="1616584344938">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.1.left/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584344938" />
+    <state width="1368" height="184" key="GridCell.Tab.1.left/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584185387" />
+    <state width="1878" height="418" key="GridCell.Tab.1.right" timestamp="1616584344939">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.1.right/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584344939" />
+    <state width="1368" height="184" key="GridCell.Tab.1.right/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584185388" />
+    <state width="1878" height="418" key="GridCell.Tab.2.bottom" timestamp="1616584323379">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.2.bottom/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584323379" />
+    <state width="1368" height="184" key="GridCell.Tab.2.bottom/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584149037" />
+    <state width="1878" height="418" key="GridCell.Tab.2.center" timestamp="1616584323379">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.2.center/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584323379" />
+    <state width="1368" height="184" key="GridCell.Tab.2.center/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584149036" />
+    <state width="1878" height="418" key="GridCell.Tab.2.left" timestamp="1616584323379">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.2.left/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584323379" />
+    <state width="1368" height="184" key="GridCell.Tab.2.left/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584149036" />
+    <state width="1878" height="418" key="GridCell.Tab.2.right" timestamp="1616584323379">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="418" key="GridCell.Tab.2.right/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1616584323379" />
+    <state width="1368" height="184" key="GridCell.Tab.2.right/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616584149036" />
+    <state x="431" y="194" key="NewPhpClassDialog" timestamp="1616206346014">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="431" y="194" key="NewPhpClassDialog/30.23.1410.877@30.23.1410.877" timestamp="1616206346014" />
+    <state x="556" y="392" key="NewPhpFileDialog" timestamp="1616206356237">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="556" y="392" key="NewPhpFileDialog/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1614764988776" />
+    <state x="556" y="392" key="NewPhpFileDialog/30.23.1410.877@30.23.1410.877" timestamp="1616206356237" />
+    <state x="30" y="48" width="1331" height="722" key="SettingsEditor" timestamp="1616417601813">
+      <screen x="30" y="23" width="1410" height="877" />
+    </state>
+    <state x="30" y="48" width="1331" height="722" key="SettingsEditor/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616417601813" />
     <state x="354" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614766020858">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="354" y="79" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1614766020858" />
-    <state x="1955" y="256" width="982" height="591" key="find.popup" timestamp="1615767165659">
-      <screen x="1440" y="23" width="1920" height="1057" />
+    <state x="408" y="216" width="721" height="490" key="find.popup" timestamp="1616583221392">
+      <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="1955" y="256" width="982" height="591" key="find.popup/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1615767165659" />
-    <state x="408" y="216" width="721" height="490" key="find.popup/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1614854221718" />
-    <state x="408" y="216" width="653" height="490" key="find.popup/30.23.1410.877@30.23.1410.877" timestamp="1613955453638" />
+    <state x="408" y="216" width="721" height="490" key="find.popup/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1616583221392" />
+    <state x="408" y="216" width="653" height="490" key="find.popup/30.23.1410.877@30.23.1410.877" timestamp="1616209129462" />
     <state x="400" y="211" key="run.anything.popup" timestamp="1614854163538">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="400" y="211" key="run.anything.popup/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1614854163538" />
-    <state x="489" y="218" width="670" height="561" key="search.everywhere.popup" timestamp="1614854189517">
+    <state x="489" y="218" width="670" height="561" key="search.everywhere.popup" timestamp="1616219191121">
       <screen x="30" y="23" width="1410" height="877" />
     </state>
     <state x="2065" y="258" width="670" height="676" key="search.everywhere.popup/30.23.1410.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1613204770342" />
     <state x="489" y="218" width="670" height="561" key="search.everywhere.popup/30.23.1410.877/1440.23.1920.1057@30.23.1410.877" timestamp="1614854189517" />
-    <state x="489" y="218" width="670" height="561" key="search.everywhere.popup/30.23.1410.877@30.23.1410.877" timestamp="1613363840488" />
+    <state x="489" y="218" width="670" height="561" key="search.everywhere.popup/30.23.1410.877@30.23.1410.877" timestamp="1616219191121" />
   </component>
 </project>

@@ -21,7 +21,7 @@
                                 <tr>
                                     <th>参加日</th>
                                     <td>
-                                        <input name="date">{{ old('date') }}
+                                        <input type="date" name="date">{{ old('date') }}
                                         @if ($errors->has('date'))
                                             <p class="error-message">{{ $errors->first('date') }}</p>
                                         @endif
@@ -30,23 +30,28 @@
 
                                 <tr>
                                     <th>発表の満足度</th>
-                                    <td>大変良い<input name="presentationScore" type="radio" value="{{ old('presentationExcellent') }}" checked>
-                                        良い<input name="presentationScore" type="radio" value="{{ old('presentationGood') }}">
-                                        普通<input name="presentationScore" type="radio" value="{{ old('presentationAverage') }}">
-                                        悪い<input name="presentationScore" type="radio" value="{{ old('presentationPoor') }}"></td>
+                                        <td>
+                                            大変良い<input name="presentationScore" type="radio" value="4" checked>
+                                            良い<input name="presentationScore" type="radio" value="3">
+                                            普通<input name="presentationScore" type="radio" value="2">
+                                            悪い<input name="presentationScore" type="radio" value="1">
+                                        </td>
                                 </tr>
 
                                 <tr>
                                     <th>運営･ランチの満足度</th>
-                                    <td>大変良い<input name="operationScore" type="radio" value="{{ old('operationExcellent') }}">
-                                        良い<input name="operationScore" type="radio" value="{{ old('operationGood') }}">
-                                        普通<input name="operationScore" type="radio" value="{{ old('operationAverage') }}">
-                                        悪い<input name="operationScore" type="radio" value="{{ old('operationPoor') }}"></td>
+                                    <td>
+                                        大変良い<input name="operationScore" type="radio" value="4" checked>
+                                        良い<input name="operationScore" type="radio" value="3">
+                                        普通<input name="operationScore" type="radio" value="2">
+                                        悪い<input name="operationScore" type="radio" value="1">
+                                    </td>
                                 </tr>
 
                                 <tr>
                                     <th>良かった点</th>
-                                    <td><textarea name="goodMessage">{{ old('goodMessage') }}</textarea>
+                                    <td>
+                                        <textarea name="goodMessage">{{ old('goodMessage') }}</textarea>
                                         @if ($errors->has('goodMessage'))
                                             <p class="errormessage">{{ $errors->first('goodMessage') }}</p>
                                         @endif
@@ -60,7 +65,6 @@
                                         @if ($errors->has('improveMessage'))
                                             <p class="errormessage">{{ $errors->first('improveMessage') }}</p>
                                         @endif
-
                                     </td>
                                 </tr>
 
