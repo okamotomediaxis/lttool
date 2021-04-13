@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49e8918d-288c-44ef-a310-19f5209015e6" name="デフォルト変更リスト" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/failed_jobs.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/failed_jobs.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/form.frm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/password_resets.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/password_resets.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/users.ibd" afterDir="false" />
-    </list>
+    <list default="true" id="49e8918d-288c-44ef-a310-19f5209015e6" name="デフォルト変更リスト" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
