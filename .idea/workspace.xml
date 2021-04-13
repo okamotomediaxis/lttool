@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="49e8918d-288c-44ef-a310-19f5209015e6" name="デフォルト変更リスト" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/failed_jobs.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/failed_jobs.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/db/data/database/form.frm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/form.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/laravel/app/Http/Controllers/FormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/app/Http/Controllers/FormController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/laravel/app/Model/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/app/Model/Form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/laravel/database/migrations/2021_03_10_094459_create_form_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/database/migrations/2021_03_10_094459_create_form_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/laravel/resources/views/Form/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/resources/views/Form/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/laravel/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/password_resets.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/password_resets.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/users.ibd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +34,7 @@
           <mapping local-root="$PROJECT_DIR$/server" remote-root="/var/www" />
         </path_mappings>
       </server>
-      <server host="" id="59927958-c7ba-4b02-a782-0c782f86be99" use_path_mappings="true">
+      <server id="59927958-c7ba-4b02-a782-0c782f86be99" use_path_mappings="true">
         <path_mappings>
           <mapping local-root="$PROJECT_DIR$/server/laravel/public" remote-root="/var/www/laravel/public" />
         </path_mappings>
@@ -125,8 +122,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.php/Dockerfile" />
       <item itemvalue="PHP リモートデバッグ.Xdebug" />
+      <item itemvalue="Docker.php/Dockerfile" />
     </list>
     <recent_temporary>
       <list>
