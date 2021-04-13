@@ -28,3 +28,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('form', 'FormController@index');
+Route::post('form', 'FormController@send');
+//Route::post('/form', 'Form\FormController@complete');
