@@ -21,7 +21,7 @@
                                 <tr>
                                     <th>参加日</th>
                                     <td>
-                                        <input type="date" name="date">{{ old('date') }}
+                                        <input type="date" name="date" value={{$today}}>
                                         @if ($errors->has('date'))
                                             <p class="error-message">{{ $errors->first('date') }}</p>
                                         @endif

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e8918d-288c-44ef-a310-19f5209015e6" name="デフォルト変更リスト" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/laravel/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/laravel/app/Http/Controllers/FormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/app/Http/Controllers/FormController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/laravel/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/laravel/resources/views/Form/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/laravel/resources/views/Form/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +18,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server/laravel" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -119,8 +122,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP リモートデバッグ.Xdebug" />
       <item itemvalue="Docker.php/Dockerfile" />
+      <item itemvalue="PHP リモートデバッグ.Xdebug" />
     </list>
     <recent_temporary>
       <list>
@@ -151,6 +154,7 @@
       <workItem from="1616203010632" duration="12049000" />
       <workItem from="1616406218896" duration="17327000" />
       <workItem from="1616582239597" duration="3116000" />
+      <workItem from="1618961925135" duration="365000" />
     </task>
     <servers />
   </component>

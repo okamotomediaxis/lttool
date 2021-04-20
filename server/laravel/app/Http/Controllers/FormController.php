@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Model\Form;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
 
@@ -12,7 +13,8 @@ class FormController extends Controller
 {
     public function index()
     {
-        return view('Form.index');
+        $today = new Carbon('today');
+        return view('Form.index',compact('today'));
     }
 
     public function send(Request $request)
